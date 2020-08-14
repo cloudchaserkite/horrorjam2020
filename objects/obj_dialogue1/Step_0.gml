@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 if (characters < message_length) { //if current character count is less than the amount in current message* 
     hold = keyboard_check(vk_space); //hold is true or false if we hold 'E' or not
@@ -22,3 +20,4 @@ else { //if current character is more than the amount in the current message
         }
     }
 }
+

@@ -18,3 +18,7 @@ x = obj_player.x +lengthdir_x(maxdist,dir);
 y = obj_player.y +lengthdir_y(maxdist,dir);
 }
 
+if place_meeting(x,y,obj_plank){sprite_index = spr_Eye;}
+
+
+else{sprite_index = spr_mouseCursor;}

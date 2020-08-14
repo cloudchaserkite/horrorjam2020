@@ -1,38 +1,38 @@
 {
-    "id": "84e2779f-5ce1-466b-938f-df90d75d2d9a",
+    "id": "5fd87219-8288-4cfd-a108-c85a43cf7cd8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_dialogue",
+    "name": "obj_dialogue1",
     "eventList": [
         {
-            "id": "f3c848ab-6759-41e8-a401-ef6441aea607",
+            "id": "0d263967-bcdc-40c3-bc32-33f50a04654e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "84e2779f-5ce1-466b-938f-df90d75d2d9a"
+            "m_owner": "5fd87219-8288-4cfd-a108-c85a43cf7cd8"
         },
         {
-            "id": "677eec59-100a-4578-8f62-899deae72dd2",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "84e2779f-5ce1-466b-938f-df90d75d2d9a"
-        },
-        {
-            "id": "a66a09bf-ff51-4b9f-84ec-0807cc36a485",
+            "id": "c730c8c6-a75b-4460-828d-5213d2e505e0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "84e2779f-5ce1-466b-938f-df90d75d2d9a"
+            "m_owner": "5fd87219-8288-4cfd-a108-c85a43cf7cd8"
+        },
+        {
+            "id": "d51f278e-fb8a-4e1f-8a43-2aca1b375acc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 73,
+            "eventtype": 8,
+            "m_owner": "5fd87219-8288-4cfd-a108-c85a43cf7cd8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -48,8 +48,10 @@
     "physicsObject": false,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
-    "physicsShape": 1,
-    "physicsShapePoints": null,
+    "physicsShape": 0,
+    "physicsShapePoints": [
+        
+    ],
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
