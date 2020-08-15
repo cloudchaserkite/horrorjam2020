@@ -19,6 +19,7 @@ y = obj_player.y +lengthdir_y(maxdist,dir);
 }
 
 if place_meeting(x,y,obj_plank){sprite_index = spr_Eye;}
+else if place_meeting(x,y,obj_itemPickup){sprite_index = spr_hand;}
 
 
 else{sprite_index = spr_mouseCursor;}
