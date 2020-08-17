@@ -15,6 +15,24 @@ draw_sprite_ext(spr_itemCell,0,vw-32-8,vh,1,1,0,c_white,.5);//Item Slot Two
 draw_sprite_ext(spr_itemCell,0,vw,vh,1,1,0,c_white,.5);//Item Slot Three
 
 
+//(vx,vh,inventory[? "invHeld"]);
+
+if inventory[? "invHeld"] != undefined{
+	
+	var itemID = inventory[? "invHeld"];
+	switch (itemID) {
+	    case "Rune":
+		draw_sprite_ext(spr_runeItem,0,vx,vh,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
+	    default:
+	        // code here
+	        break;
+	}
+
+}
+
+
 if inventory[? "invOne"] != undefined{
 	
 	var itemID = inventory[? "invOne"];
@@ -30,9 +48,29 @@ if inventory[? "invOne"] != undefined{
 
 }
 if inventory[? "invTwo"] != undefined{
+		var itemID = inventory[? "invTwo"];
+	switch (itemID) {
+	    case "Rune":
+		draw_sprite_ext(spr_runeItem,0,vw-32-8,vh,1,1,0,c_white,1);//Item Slot Two
+	        // code here
+	        break;
+	    default:
+	        // code here
+	        break;
+	}
 
 }
 if inventory[? "invThree"] != undefined{
+		var itemID = inventory[? "invThree"];
+	switch (itemID) {
+	    case "Rune":
+		draw_sprite_ext(spr_runeItem,0,vw,vh,1,1,0,c_white,1);//Item Slot Three
+	        // code here
+	        break;
+	    default:
+	        // code here
+	        break;
+	}
 
 }
 

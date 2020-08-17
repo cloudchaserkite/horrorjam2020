@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+depth = -9000;
 if (characters < message_length) { //if current character count is less than the amount in current message* 
     hold = keyboard_check(vk_space); //hold is true or false if we hold 'E' or not
     characters += increase * (1 + hold); //increase speed based on hold

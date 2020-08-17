@@ -8,7 +8,7 @@ if (surface_exists(surf)){
 	
 	gpu_set_blendmode(bm_subtract);
 	draw_set_color(c_white);
-	with obj_itemPickup{
+	/*with obj_itemPickup{
 	#region //obj_itemPickup Redraw
 	
 		var vx = camera_get_view_x(view_camera[0])+64;
@@ -33,7 +33,7 @@ if (surface_exists(surf)){
 					draw_text_transformed(vx-8,vy+128+16,">",.4,.4,0);
 					break;}}
 	#endregion
-					}
+					}*/
 	with obj_player{
 	
 	#region // obj_playerRedraw
@@ -77,6 +77,7 @@ if (surface_exists(surf)){
 	with obj_mouse{
 		#region //obj_mouse Redraw
 	draw_circle(mouse_x,mouse_y,30,false);
+	draw_circle(mouse_x,mouse_y,24,false);
 	draw_circle(mouse_x,mouse_y,24,false);
 	draw_triangle(mouse_x,mouse_y-24,mouse_x,mouse_y,obj_player.x,obj_player.y,false);
 	draw_triangle(mouse_x,mouse_y+24,mouse_x,mouse_y,obj_player.x,obj_player.y,false);
